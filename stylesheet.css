@@ -18,10 +18,10 @@ body {
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
-	overflow: scroll;
 }
 
 #header {
+	z-index: 1;
 	position: fixed;
 	top: 0px;
 	left: 0px;
