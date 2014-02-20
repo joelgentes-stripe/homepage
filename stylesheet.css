@@ -1,26 +1,253 @@
+
+
 div {
-	border-color: black;
-	border-style: solid 1px;
+/*	
+	outline-color: black;
+	outline-style: solid;
+	outline-width: 1px;
+*/
+}
+
+body {
+	left: 0px;
+	right: 0px;
+	margin: 0px;
 }
 
 #header {
-	z-index: 1;
 	position: fixed;
-	width: 100%;
-	margin-top: 0px;
-	height: 60px;
-	background-color: blue;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 54px;
+	background-color: black;
 }
 
-#temp {
-	font-size: 48px;
+#header > div {
+	height: 42px;
+	width: 1012px;
+	position: relative;
+	top: -4px;
+	margin-top: 6px;
+	margin-left: auto;
+	margin-bottom: 6px;
+	margin-right: auto;
 }
 
-#footer {
-	z-index: 1;
+#header span {
+	position: relative;
+	top: 14px;
+	left: 16px;
+	font-family: "Georgia";
+	font-weight: 900;
+	font-size: 20px;
+	color: white;
+}
+
+#belly {
+	background-color: transparent;
 	position: fixed;
+	top: 54px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: scroll;
 	width: 100%;
+}
+
+#pedigree-box {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 1024px;
+}
+
+#ggp,#gp,#p {
+	position: relative;
+	left: 0px;
+	right: 0px;
+	height: 48px;
 	margin-top: 0px;
-	height: 60px;
-	background-color: blue;
+}
+
+#pedigree > div > div {
+	display: table;
+	position: relative;
+	overflow: hidden;
+
+	left: 6px;
+	top: 6px;
+	margin-right: 6px;
+	float: left;
+	background-color: #e6e6e6;
+	height: 42px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#pedigree > div > div > div {
+	position: relative;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#pedigree > div > div > div > div {
+	position: relative;
+
+	font-family: "Georgia";
+	font-size: 12px;
+}
+
+#ggp > div {
+	width: 121.25px;
+}
+
+#gp > div {
+	width: 248.5px;
+}
+
+#p > div {
+	width: 502px;
+}
+
+#story-box {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	min-height: 400px;
+	overflow: hidden;
+}
+
+#story {
+	display: block;
+	position: relative;
+	margin-left: 24px;
+	float: left;
+	width: 570px;
+}
+
+#story h1 {
+	font-family: "Georgia";
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: 36px;
+}
+
+#story h2 {
+	font-family: "Georgia";
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+	margin-top: 36px;
+}
+
+#story p {
+	font-family: "Georgia";
+	font-size: 16px;
+	line-height: 1.5;
+	text-align:justify;
+}
+
+#story .onePic {
+	text-align: center;
+}
+
+#story .onePic img {
+	height: 240px;
+	left: 50%;
+	border-color: #f0f0f0;
+	border-style: solid;
+	border-width: 8px;
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+}
+
+#timeline {
+	position: relative;
+	float: left;
+	width: 406px;
+}
+
+#timeline h1 {
+	font-family: "Georgia";
+	font-size: 18px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-left: 40px;
+}
+
+#timeline dt {
+	font-family: "Georgia";
+	font-size: 14px;
+	font-weight: normal;
+	font-style: italic;
+	color: #7f7f7f;
+	margin-left: 40px;
+	margin-top: 8px;
+}
+
+#timeline dd {
+	font-family: "Georgia";
+	font-size: 14px;
+	font-weight: normal;
+	margin-left: 70px;
+	margin-top: 4px;
+}
+
+#descendents-box {
+	position: relative;
+	overflow: hidden;
+
+	margin: 80px auto 40px auto;
+	padding: 0px;
+
+	width: 1024px;
+}
+
+#descendents {
+	position: relative;
+	overflow: hidden;
+
+	margin: 6px;
+	padding: 14px 18px 14px 18px;
+
+	background-color: #e6e6e6;
+}
+
+#descendents > ul {
+	overflow: hidden;
+	margin: 0px;
+	padding: 0px;
+}
+
+#descendents > ul > li {
+	display: inline;
+	float: left;
+	list-style-type: none;
+
+	margin: 3px;
+	padding: 0px;
+	
+	top: 0px;
+	left: 0px;
+
+	font-family: "Georgia";
+	font-size: 12px;
+	font-weight: normal;
+	overflow: hidden;
+}
+
+#descendents > ul > div {
+	display: inline;
+	float: left;
+
+	margin: -3px 9px 0px 9px;
+	padding: 0px;
+
+	font-family: "Helvetica";
+	font-size: 18px;
+	font-weight: normal;
 }
