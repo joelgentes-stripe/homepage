@@ -12,6 +12,13 @@ body {
 	left: 0px;
 	right: 0px;
 	margin: 0px;
+
+	position: relative;
+	top: 54px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	overflow: scroll;
 }
 
 #header {
@@ -27,11 +34,6 @@ body {
 	height: 42px;
 	width: 998px;
 	position: relative;
-	top: -4px;
-	margin-top: 6px;
-	margin-left: auto;
-	margin-bottom: 6px;
-	margin-right: auto;
 }
 
 #header span {
@@ -46,13 +48,6 @@ body {
 
 #belly {
 	background-color: transparent;
-	position: fixed;
-	top: 54px;
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	overflow: scroll;
-	width: 100%;
 }
 
 #pedigree-box {
