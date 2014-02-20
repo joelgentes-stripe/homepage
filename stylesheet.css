@@ -52,10 +52,11 @@ body {
 
 #pedigree-box {
 	position: relative;
+	margin-top: 4px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 150px;
-	width: 1010px;
+	width: 1008px;
 }
 
 #ggp,#gp,#p {
@@ -95,7 +96,7 @@ body {
 }
 
 #ggp > div {
-	width: 119.5px;
+	width: 119px;
 }
 
 #gp > div {
@@ -110,7 +111,7 @@ body {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1010px;
+	width: 1008px;
 	min-height: 400px;
 	overflow: hidden;
 }
@@ -120,7 +121,7 @@ body {
 	position: relative;
 	margin-left: 24px;
 	float: left;
-	width: 566px;
+	width: 564px;
 }
 
 #story h1 {
@@ -196,10 +197,10 @@ body {
 	position: relative;
 	overflow: hidden;
 
-	margin: 80px auto 40px auto;
+	margin: 80px auto 100px auto;
 	padding: 0px;
 
-	width: 1010px;
+	width: 1008px;
 }
 
 #descendents {
