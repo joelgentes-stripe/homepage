@@ -60,7 +60,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 150px;
-	width: 1024px;
+	width: 1010px;
 }
 
 #ggp,#gp,#p {
@@ -115,7 +115,7 @@ body {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 1024px;
+	width: 1010px;
 	min-height: 400px;
 	overflow: hidden;
 }
@@ -125,7 +125,7 @@ body {
 	position: relative;
 	margin-left: 24px;
 	float: left;
-	width: 570px;
+	width: 566px;
 }
 
 #story h1 {
@@ -204,7 +204,7 @@ body {
 	margin: 80px auto 40px auto;
 	padding: 0px;
 
-	width: 1024px;
+	width: 1010px;
 }
 
 #descendents {
